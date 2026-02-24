@@ -1,0 +1,35 @@
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#020617,#0f172a);
+font-family:Arial;
+color:white;
+}
+
+.glass{
+backdrop-filter:blur(20px);
+background:rgba(255,255,255,0.08);
+padding:40px;
+border-radius:18px;
+width:360px;
+box-shadow:0 0 40px rgba(0,0,0,0.6);
+text-align:center;
+}
+
+input,select,button{
+width:100%;
+margin:10px 0;
+padding:12px;
+border-radius:8px;
+border:none;
+}
+
+button{
+background:#22c55e;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
